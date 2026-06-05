@@ -1,0 +1,11 @@
+prompt_v1_domain,prompt_v2_domain,prompt_v1_seniority,prompt_v2_seniority
+marketing,other,mid,unknown
+healthcare,other,mid,unknown
+other,other,mid,unknown
+other,other,senior,unknown
+other,other,mid,unknown
+other,other,junior,unknown
+other,other,unknown,unknown
+operations,other,mid,unknown
+operations,other,mid,unknown
+other,other,junior,unknown
