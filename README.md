@@ -51,7 +51,7 @@ salary-predictor/
 
 ## Deployment
 
-Live demo: *(Hugging Face Space URL — added after deployment)*
+Live demo: https://huggingface.co/spaces/eceleo/salaryscope-ai
 
 ## Setup & Execution Instructions
 
