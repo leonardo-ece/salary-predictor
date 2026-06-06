@@ -53,6 +53,7 @@ Primary blocks used for core solution:
 
 - **Problem statement:** Job seekers and recruiters often lack transparency on whether a posted salary range is competitive. Raw job descriptions contain implicit signals (required skills, seniority cues, domain) that are hard to parse manually at scale.
 - **Goal:** Build a system that takes a job posting (free text + basic structured fields) and predicts the salary band (Low / Mid / High / Very High), then explains the prediction in plain language.
+- **Scope and assumptions:** Predictions are limited to US-based job postings with annual salaries between $30k–$200k. Job descriptions are assumed to be in English. The model predicts salary band only — not exact salary. Equity, bonuses, and benefits are not accounted for in the salary figures.
 - **Success criteria:** Classification accuracy ≥ 55% on held-out test set (4-class problem, random baseline = 25%); qualitatively coherent LLM explanations for predicted bands. Both criteria were met: RF 60.4%, XGBoost 60.5%.
 
 ### 1.2 Integration Logic
