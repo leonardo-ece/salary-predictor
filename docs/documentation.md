@@ -265,3 +265,6 @@ python app/app.py
 **Evidence for selected bonus items:**
 
 Three distinct data sources used with clearly different roles: (1) LinkedIn structured job data for ML features and target variable, (2) ravindrasinghrana text-heavy dataset for additional NLP corpus and keyword-based domain inference on the non-LLM portion of the data, (3) OpenAI GPT-4o-mini API used in two distinct roles — structured feature extraction during training and natural language explanation generation at inference time.
+
+## Acknowledgements
+Claude (Anthropic) was used as an AI assistant for coding support, debugging, and documentation.

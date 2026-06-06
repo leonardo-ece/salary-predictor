@@ -132,3 +132,6 @@ Opens at http://127.0.0.1:7860
 ---
 
 > ⚠️ **Disclaimer:** Student project for educational purposes only. Salary predictions are estimates based on historical data and should not be used for real hiring or job application decisions.
+
+## Acknowledgements
+Claude (Anthropic) was used as an AI assistant for coding support, debugging, and documentation.
